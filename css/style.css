@@ -4,3 +4,41 @@
     margin:0;
     box-sizing: border-box;
 }
+
+/*general*/
+.container{
+    width: 1800px;
+    min-height:100vh;
+    margin: 0 auto;
+    border: 2px dashed #fff ;
+   
+ 
+}
+
+body{
+    font-family:sans-serif ;
+    background-color: #000;
+}
+
+/*header*/
+header{
+    width: 100%;
+    height: 90px;
+    border: 2px dashed #ff0000;
+}
+
+
+/*main*/
+main{
+    height: calc(100vh - 180px);
+    overflow: auto;
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 90px;
+    border: 2px dashed #ff0000;
+    background-color: #222222 ;
+}
